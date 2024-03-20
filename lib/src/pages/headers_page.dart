@@ -1,4 +1,4 @@
-import 'package:custom_painter_uses/src/widgets/square_header.dart';
+import 'package:custom_painter_uses/src/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 
 class HeadersPage extends StatelessWidget {
@@ -7,7 +7,7 @@ class HeadersPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: SquareHeader(),
+      body: RoundedSquareHeader(),
     );
   }
 }
